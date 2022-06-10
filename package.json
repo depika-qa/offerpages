@@ -1,0 +1,26 @@
+{
+  "name": "offerpages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:react": "cypress run --config baseUrl=https://react.magzter.com/validateuser?authkey=9xk44bv17asduiaxhuu4gtohj89pg12n",
+    "test:live": "cypress run --config baseUrl=https://magzter.com",
+    "chrome:headed": "cypress run --headed --browser chrome --record --key 92fd049a-e903-4993-b9b5-aaa0be75d229"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depika-qa/offerpages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/depika-qa/offerpages/issues"
+  },
+  "homepage": "https://github.com/depika-qa/offerpages#readme",
+  "devDependencies": {
+    "cypress": "^10.0.2"
+  }
+}
